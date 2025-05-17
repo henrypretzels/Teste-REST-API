@@ -26,7 +26,7 @@ Esse é um projeto para fins didáticos, com o intúito de testar uma API REST s
     "name": "Usuário",
     "age": 20
    }
-bash´´´
+´´
 Esse irá retornar o código de status 201 (Created) se funcionar corretamente.
 
 3. Para testar o endpoint PUT, a URL deve ser modificada para  http://localhost:8080/users/<n>, com n sendo o ID do usuário no qual se deseja alterar as informações,
