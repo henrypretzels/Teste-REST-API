@@ -26,11 +26,15 @@ Esse é um projeto para fins didáticos, com o intúito de testar uma API REST s
     "name": "Usuário",
     "age": 20
 }
-´´´
+´´
 Esse irá retornar o código de status 201 (Created) se funcionar corretamente.
+
 3. Para testar o endpoint PUT, a URL deve ser modificada para  http://localhost:8080/users/<n>, com n sendo o ID do usuário no qual se deseja alterar as informações,
 seguindo o mesmo formato de requisição do passo 2. Esse terá como retorno funcional o código de status 200.
+
 4. Para testar o endpoint DELETE, a lógica é similar ao passo 3, desta vez selecionando o ID do usuário no qual se deseja remover. Esse terá como retorno funcional o código de status 204 (No Content).
+
+
 ## Fluxo de execução exemplo:
     Crie 2 usuários via POST
 
